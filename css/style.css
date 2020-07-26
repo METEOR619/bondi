@@ -162,14 +162,13 @@ font-weight: 300;
 
 /* team end */
 /* clients start */
+
 .clients img{
   
-    
    margin-left: 8%;
    margin-top: 2%;
    margin-right: 2%;
    margin-bottom: 2%;
-  
 }
 /* clients end */
 /* advertise start */
@@ -212,7 +211,8 @@ font-weight: 300;
 .newsletter input{
 border: none;
 background-color:  #ffc400;
-border-bottom: #fff;
+border-bottom: 1px solid #fff;
+width: 50%;
 }
 /* newsletter end */
 /* footer start */
