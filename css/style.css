@@ -126,15 +126,6 @@ text-align: center;
 .team{
     background-color: #eff7fa;
 }
-.team-text p{
-    width: 968px;
-height: 38px;
-font-size: 15px;
-color: #a8b9c0;
-font-weight: 300;
-font-family: "Roboto";
-text-align: center;
-}
 .team h3{
     color:#ffc501;
     margin-top: 1%;
@@ -143,6 +134,32 @@ text-align: center;
 color:#a8b9c0;
 margin-top: 2%;
 }
+.team-text p{
+font-size: 15px;
+color: #a8b9c0;
+font-weight: 300;
+}
+.btn-team{
+    color: #fff;
+    background-color: #30d0cb;
+    border: none;
+    width: 100%;
+}
+.card-body{
+    padding: 0;
+}
+.card{
+    margin: 2%; 
+}
+.card img{
+    height: 75%;
+    width: 100%;
+}
+.card-body p{
+    margin: 2%;
+}
+
+
 /* team end */
 /* clients start */
 .clients img{
@@ -173,12 +190,29 @@ margin-top: 2%;
 }
 
 /* advertise end */
+/* blog start */
+.card-subtitle{
+   
+    color: #a8b9c0;
+    font-weight: 400;
+}
+.card-text{
+  
+    color: #1a2940;
+    font-weight: 400;
+}
+/* blog end */
 /* newsletter start */
 .newsletter{
     background-color: #ffc400;
 }
 .newsletter span{
     margin-right: 5px;
+}
+.newsletter input{
+border: none;
+background-color:  #ffc400;
+border-bottom: #fff;
 }
 /* newsletter end */
 /* footer start */
@@ -195,8 +229,6 @@ margin-top: 2%;
 }
 .footer-lines{
     margin: 2%;
-    width: 368px;
-    height: 74px;
     font-size: 13px;
     line-height: 30px;
     color: #a8b9c0;
