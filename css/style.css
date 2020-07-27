@@ -55,7 +55,7 @@ header,section{
 /* title container end*/
 /* services, portfolio,about us,blog content/cover start */
 .cover{
-    margin: 5%;
+    margin: 4%;
 }
 .content h3{
     color: #1a2940;
@@ -132,31 +132,30 @@ text-align: center;
 }
 .team p{
 color:#a8b9c0;
-margin-top: 2%;
+
 }
 .team-text p{
-font-size: 15px;
 color: #a8b9c0;
-font-weight: 300;
+font-size: small;
 }
 .btn-team{
     color: #fff;
     background-color: #30d0cb;
     border: none;
+    height: 25%;
     width: 100%;
 }
 .card-body{
     padding: 0;
+    
 }
 .card{
     margin: 2%; 
 }
-.card img{
-    height: 75%;
-    width: 100%;
-}
+
 .card-body p{
-    margin: 2%;
+    text-align: center;
+    padding: 3%;
 }
 
 
@@ -164,8 +163,9 @@ font-weight: 300;
 /* clients start */
 
 .clients img{
-  
-   margin-left: 8%;
+
+ 
+   margin-left: 4%;
    margin-top: 2%;
    margin-right: 2%;
    margin-bottom: 2%;
@@ -191,14 +191,12 @@ font-weight: 300;
 /* advertise end */
 /* blog start */
 .card-subtitle{
-   
+    font-size: small;
     color: #a8b9c0;
-    font-weight: 400;
 }
 .card-text{
-  
-    color: #1a2940;
-    font-weight: 400;
+    font-size: medium;
+    color: #1a2940; 
 }
 /* blog end */
 /* newsletter start */
@@ -214,6 +212,18 @@ background-color:  #ffc400;
 border-bottom: 1px solid #fff;
 width: 50%;
 }
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  input :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#fff;
+  }
+  
+  input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+  }
 /* newsletter end */
 /* footer start */
 .footer{
@@ -222,51 +232,45 @@ width: 50%;
 .footer img{
     margin: 2%;
     padding-right: 10%;
-    padding-bottom: 5%;
+    
 }
-.footer h3{
+.footer h4{
     color: #c5ced5;
 }
 .footer-lines{
-    margin: 2%;
-    font-size: 13px;
-    line-height: 30px;
+  
+    font-size: smaller;
     color: #a8b9c0;
-    font-weight: 400;
+
 }
-.footer p{
-    font-size: 15px;
+.footer p{ 
     color: #c5ced5;  
 }
 .footer-links a{
     color: #c5ced5;
-    font-size: 15px;
-    padding: 4%;
+    font-size: small;
+    padding: 3%;
     display: grid;
 }
 .copyright-line{
-    margin: 5%;
-    padding-top: 4%;
-    font-size: 13px;
-   color: #a8b9c0;
-  font-weight: 400;
+    font-size: small;
+   color: #a8b9c0;  
 }
 .graphberry{
     color: #00c7c0;
 }
 .bondi{
-    font-size: 13px;
+    font-size: small;
    font-weight: 400;
     color: #ffc501;
 }
 .fa {
-    margin-top: 10%;
+ 
     padding: 2%;
-    font-size: 15px;
-    width: 30px;
+    font-size: medium;
+    width: 12%;
     text-align: center;
     text-decoration: none;
- 
     border-radius: 50%;
   } 
   
@@ -311,17 +315,16 @@ width: 50%;
 }
 /* buttons end */
 /* anchor btn start */
-.a-btn{
+.p-a{
+    color: #a8b9c0;
+}
+
+.p-a:hover{
     color: #ffc501;
     background-color: #ff3150;
     width: 60px;
-   height: 44px;
-   border-radius: 10px;
-
-}
-.a-btn:hover{
-    color: #ff8a21;
-    background-color: #ff3150;
+    height: 44px;
+    border-radius: 10px;
 }
 .lgn-btn{
     width: 110px;
