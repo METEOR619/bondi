@@ -2,7 +2,6 @@ body{
    font-family: 'Roboto', sans-serif;
    box-sizing: border-box;
 }
-
 /* header start */
 header{
     background-color: #19283f;
@@ -33,14 +32,12 @@ header,section{
 .search img{
     height: 15%;
     width: 15%;
-  
 }
 #secondNav li a::before{
     content: '|'; 
     color: #00c7c0;
     padding: 1.5em  1.5em;	
  }
-
 /* navbar end */
 /* title container start*/
 .title h1{
