@@ -209,6 +209,10 @@ section {
     margin: 0 auto;
 }
 
+.team-card {
+    border: none;
+}
+
 .card-info {
     color: #a8b9c0;
     font-size: 12px;
@@ -255,6 +259,10 @@ section {
     padding-top: 15px;
     font-size: small;
     color: #a8b9c0;
+}
+
+.blog-card {
+    border: none;
 }
 
 .blog-info {
